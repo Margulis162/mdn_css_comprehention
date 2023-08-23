@@ -10,15 +10,25 @@ html {
   background-color: #ccc;
 }
 
+.card{
+  background:
+  linear-gradient(180deg, rgba(240, 224, 8, 0.6), rgba(241, 168, 60, 0.3) );
+  background-color:rgb(255, 154, 3);
+  block-size:325px;
+  inline-size:650px;
+  border-radius: 20px 10px / 20px 10px;
+  margin-inline:auto;
+  margin-block-start:50px;
+  border: 2px solid rgba(230, 143, 38, 0.5)
 /* Selectors to be matched up with rulesets */
 
-.card article img
+/* .card article img
 .card footer
 .card header
-.card
+.card */
 
 /* Rulesets to be matched up with selectors */
-
+/* 
 {
   width: 35em;
   height: 22em;
@@ -41,4 +51,4 @@ html {
 {
   max-height: 100%
   float: right;
-}
+} */
