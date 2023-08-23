@@ -40,14 +40,24 @@ html {
 }
 
 .card article img{
+  max-height:100%;
   border-radius:  0px 0px 40px 0px;
   margin-inline-start: 20px;
-  margin-block-start: -52px;
+  margin-block-start: -62px;
+  float:left;
+}
+
+.card footer{
+ background-color:rgb(59, 74, 89);
+ block-size: 40px;
+ border-radius: 0px 0px 0px 40px;
+
+
+ 
 }
 /* Selectors to be matched up with rulesets */
 
 /* .card article img
-.card footer
 .card */
 
 /* Rulesets to be matched up with selectors */
