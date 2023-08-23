@@ -2,6 +2,9 @@
 
 body {
   margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5em;
+  letter-spacing: .03em;
 }
 
 html {
@@ -21,6 +24,7 @@ html {
   margin-block-start:50px;
   border: 2px solid rgba(230, 143, 38, 0.5);
   border-block-start:none;
+  position:relative;
 }
 
 .card header{
@@ -44,17 +48,27 @@ html {
   border-radius:  0px 0px 40px 0px;
   margin-inline-start: 20px;
   margin-block-start: -62px;
-  float:left;
+  float: left;
+  
 }
 
 .card footer{
  background-color:rgb(59, 74, 89);
  block-size: 40px;
  border-radius: 0px 0px 0px 40px;
+ border-inline: 2px solid  rgb(59, 74, 89);
+ margin-inline: -2px;
+ position:absolute;
+  inline-size:calc(100% - 20px);
+ bottom:-2px;
+ border-block-end: 2px solid  rgb(59, 74, 89);
+ padding-inline-start:20px;
 
 
  
 }
+
+.card f
 /* Selectors to be matched up with rulesets */
 
 /* .card article img
